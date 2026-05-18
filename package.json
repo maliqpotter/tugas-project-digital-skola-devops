@@ -1,0 +1,27 @@
+{
+  "name": "tugas-project-digital-skola-devops",
+  "version": "1.0.0",
+  "description": "## Run locally ``` python -m venv .venv && source .venv/bin/activate pip install -r requirements.txt -r dev-requirements.txt uvicorn app.main:app --reload ```",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izmilia-prastika/tugas-project-digital-skola-devops.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izmilia-prastika/tugas-project-digital-skola-devops/issues"
+  },
+  "homepage": "https://github.com/izmilia-prastika/tugas-project-digital-skola-devops#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0"
+  }
+}
