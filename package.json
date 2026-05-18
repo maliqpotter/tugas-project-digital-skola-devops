@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,5 @@
     "@eslint/js": "^10.0.1",
     "eslint": "^10.4.0",
     "globals": "^17.6.0"
-  }
-  "scripts": {
-  "lint": "eslint .",
-  "test": "jest --coverage",
-  "start": "node app.js"
   }
 }
