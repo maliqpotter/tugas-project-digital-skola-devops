@@ -20,5 +20,15 @@ module.exports = [
       "no-console": "off",
       "eqeqeq": ["error", "always"]
     }
-  })
+  }),
+  {
+    files: ["loadtest/**/*.js"],
+    languageOptions: {
+      globals: {
+        __ENV: "readonly",
+        __VU: "readonly",
+        __ITER: "readonly"
+       }
+     }
+  }
 ];
