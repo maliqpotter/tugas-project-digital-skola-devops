@@ -1,5 +1,4 @@
-__pycache__/
-*.pyc
+node_modules
+coverage
+.nyc_output
 .env
-.venv/
-.pytest_cache/
